@@ -1,5 +1,4 @@
 
-%include	/usr/lib/rpm/macros.python
 %define 	module	dirstore
 
 Summary:	dirstore - Python module for acces files from directories and/or archives
