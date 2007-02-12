@@ -2,7 +2,7 @@
 %define 	module	dirstore
 
 Summary:	dirstore - Python module for acces files from directories and/or archives
-Summary(pl):	dirstore - modu³ Pythona umo¿liwiaj±cy dostêp do plików umieszczonych w katalogach i/lub archiwach
+Summary(pl.UTF-8):   dirstore - moduÅ‚ Pythona umoÅ¼liwiajÄ…cy dostÄ™p do plikÃ³w umieszczonych w katalogach i/lub archiwach
 Name:		python-%{module}
 Version:	0.1.0
 Release:	1
@@ -25,12 +25,12 @@ data from the archive as a string or a file-like object without
 worrying about the underlying archive format.
 
 
-%description -l pl
-Modu³ ten udostêpnia ogólny obiekt (DirStore) umo¿liwiaj±cy uzyskanie
-dostêpu do plików przechowywanych w katalogu lub archiwum tar, rar lub
-zip. Modu³ ten umo¿liwia odczyt danych z archiwum w postaci ³añcucha
-znaków albo obiektu podobnego do file() bez martwienia siê formatem
-przegl±danego archiwum.
+%description -l pl.UTF-8
+ModuÅ‚ ten udostÄ™pnia ogÃ³lny obiekt (DirStore) umoÅ¼liwiajÄ…cy uzyskanie
+dostÄ™pu do plikÃ³w przechowywanych w katalogu lub archiwum tar, rar lub
+zip. ModuÅ‚ ten umoÅ¼liwia odczyt danych z archiwum w postaci Å‚aÅ„cucha
+znakÃ³w albo obiektu podobnego do file() bez martwienia siÄ™ formatem
+przeglÄ…danego archiwum.
 
 %prep
 %setup -q -n %{module}-%{version}
