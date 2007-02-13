@@ -2,7 +2,7 @@
 %define 	module	dirstore
 
 Summary:	dirstore - Python module for acces files from directories and/or archives
-Summary(pl.UTF-8):   dirstore - moduł Pythona umożliwiający dostęp do plików umieszczonych w katalogach i/lub archiwach
+Summary(pl.UTF-8):	dirstore - moduł Pythona umożliwiający dostęp do plików umieszczonych w katalogach i/lub archiwach
 Name:		python-%{module}
 Version:	0.1.0
 Release:	1
