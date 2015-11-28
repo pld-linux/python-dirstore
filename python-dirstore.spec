@@ -39,8 +39,7 @@ przeglądanego archiwum.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{py_sitescriptdir}
 
-python setup.py install \
-	--root=$RPM_BUILD_ROOT \
+%py_install \
 	--install-lib=%{py_sitescriptdir} \
 	--optimize=2
 
