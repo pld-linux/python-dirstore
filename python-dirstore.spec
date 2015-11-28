@@ -5,7 +5,7 @@ Summary:	dirstore - Python module for acces files from directories and/or archiv
 Summary(pl.UTF-8):	dirstore - moduł Pythona umożliwiający dostęp do plików umieszczonych w katalogach i/lub archiwach
 Name:		python-%{module}
 Version:	0.1.0
-Release:	3
+Release:	4
 License:	GPL v2
 Group:		Libraries/Python
 Source0:	http://kai.vm.bytemark.co.uk/~piman/software/%{module}-%{version}.tar.gz
