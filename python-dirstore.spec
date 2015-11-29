@@ -11,6 +11,7 @@ Group:		Libraries/Python
 Source0:	http://kai.vm.bytemark.co.uk/~piman/software/%{module}-%{version}.tar.gz
 # Source0-md5:	559b3e350534110d9acf94e69df3679e
 URL:		http://kai.vm.bytemark.co.uk/~piman/software.shtml#dirstore
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python-modules >= 2.2
 BuildRequires:	rpm-perlprov
 Requires:	python >= 2.2
